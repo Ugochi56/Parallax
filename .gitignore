@@ -1,0 +1,38 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Runtime State, Trade Logs & Personal Accounts
+data/
+logs/
+reports/
+*.csv
+*.jsonl
+*.log
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+
+# Trained Model Weights
+models/
+*.joblib
+*.pkl
+*.h5
+*.onnx
+*.pt
+
+# Python & Test Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
